@@ -1,0 +1,135 @@
+{
+    "extName": "submersion",
+    "creature": [
+        {
+            "name": "porc-pilleur",
+            "id": "105007000000143"
+        },
+        {
+            "name": "monstre des douves",
+            "id": "106003080000412"
+        },
+        {
+            "name": "y\u00e9ti chafouin",
+            "id": "103004090000446"
+        },
+        {
+            "name": "picoreur de mana",
+            "id": "105000000000111"
+        },
+        {
+            "name": "protecteur des ruines",
+            "id": "108000000000364"
+        },
+        {
+            "name": "requinotaures",
+            "id": "115003000000324"
+        },
+        {
+            "name": "seigneur venimeur",
+            "id": "119014000000013"
+        },
+        {
+            "name": "scaphandrier",
+            "id": "103100000000223"
+        },
+        {
+            "name": "mage discret",
+            "id": "105008000000254"
+        },
+        {
+            "name": "groin terrestre",
+            "id": "10000000000242"
+        },
+        {
+            "name": "chef de clan",
+            "id": "10000000000443"
+        },
+        {
+            "name": "hydre",
+            "id": "115002000000324"
+        },
+        {
+            "name": "dragon \u00e9meraude",
+            "id": "105016090000356"
+        },
+        {
+            "name": "ritualiste",
+            "id": "105100000000133"
+        },
+        {
+            "name": "grignoteur",
+            "id": "10000000000734"
+        },
+        {
+            "name": "guerrier abyssal",
+            "id": "103000000000333"
+        },
+        {
+            "name": "chef cuistot",
+            "id": "116000000000213"
+        },
+        {
+            "name": "alpha-garou",
+            "id": "115000000000455"
+        },
+        {
+            "name": "engeance",
+            "id": "112004000000112"
+        },
+        {
+            "name": "wyrm r\u00e9anim\u00e9e",
+            "id": "113012080000617"
+        },
+        {
+            "name": "tavernier m\u00e9canique",
+            "id": "105014000000425"
+        },
+        {
+            "name": "gredin hirsute",
+            "id": "117000000000222"
+        },
+        {
+            "name": "b\u00eate informe",
+            "id": "10000000000866"
+        },
+        {
+            "name": "garde royale",
+            "id": "112000000000354"
+        },
+        {
+            "name": "bondiseur",
+            "id": "115018000000313"
+        },
+        {
+            "name": "dragon saphir",
+            "id": "103001000000365"
+        },
+        {
+            "name": "brise-muraille",
+            "id": "101009000000455"
+        },
+        {
+            "name": "picoreur de murs",
+            "id": "101000000000211"
+        }
+    ],
+    "incantation": [
+        {
+            "name": "attaque mentale",
+            "id": "20000000000302"
+        },
+        {
+            "name": "vision de terreur",
+            "id": "217000000000404"
+        },
+        {
+            "name": "chope enchant\u00e9e",
+            "id": "216000000000303"
+        },
+        {
+            "name": "temp\u00eate de lumi\u00e8re",
+            "id": "212002100000507"
+        }
+    ]
+}

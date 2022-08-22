@@ -1,0 +1,135 @@
+{
+    "extName": "felonie",
+    "creature": [
+        {
+            "name": "fripon",
+            "id": "110000000000310"
+        },
+        {
+            "name": "gladiateur",
+            "id": "106007000000564"
+        },
+        {
+            "name": "cauchemar tenace",
+            "id": "107000000000153"
+        },
+        {
+            "name": "grang de cr\u00f4a",
+            "id": "18003070000466"
+        },
+        {
+            "name": "v\u00e9t\u00e9ran",
+            "id": "106002000000444"
+        },
+        {
+            "name": "naga",
+            "id": "103014100000466"
+        },
+        {
+            "name": "savant fou",
+            "id": "116009000000154"
+        },
+        {
+            "name": "infirmier m\u00e9canique",
+            "id": "116000000000222"
+        },
+        {
+            "name": "b\u00eate de guerre",
+            "id": "10000000000845"
+        },
+        {
+            "name": "spectre",
+            "id": "111008000000213"
+        },
+        {
+            "name": "titan",
+            "id": "10000000000887"
+        },
+        {
+            "name": "dragonnet",
+            "id": "101014000000213"
+        },
+        {
+            "name": "crocozaure",
+            "id": "108004100000454"
+        },
+        {
+            "name": "ronge-raison",
+            "id": "111010000000513"
+        },
+        {
+            "name": "palanain",
+            "id": "114000000000334"
+        },
+        {
+            "name": "faucheur",
+            "id": "117000000000423"
+        },
+        {
+            "name": "diablotin provocant",
+            "id": "108007000000132"
+        },
+        {
+            "name": "puncheur peureux ",
+            "id": "115018070000165"
+        },
+        {
+            "name": "dragon cupide",
+            "id": "115010000000655"
+        },
+        {
+            "name": "cr\u00f4a solitaire",
+            "id": "118000000000142"
+        },
+        {
+            "name": "embrocheur",
+            "id": "115004000000567"
+        },
+        {
+            "name": "gluant rancunier",
+            "id": "103009000000334"
+        },
+        {
+            "name": "gesticulateur toxique",
+            "id": "115019180000034"
+        },
+        {
+            "name": "turbo-rafaleur",
+            "id": "112000000000333"
+        },
+        {
+            "name": "d\u00e9moculaire",
+            "id": "104100000000313"
+        },
+        {
+            "name": "p\u00e9tocharde",
+            "id": "107100000000164"
+        },
+        {
+            "name": "grogneur",
+            "id": "107000000000153"
+        },
+        {
+            "name": "poisson-loupiote",
+            "id": "10000000000221"
+        }
+    ],
+    "incantation": [
+        {
+            "name": "bouch\u00e9e maudite",
+            "id": "210000000000200"
+        },
+        {
+            "name": "d\u00e9sint\u00e9gration",
+            "id": "212000000000606"
+        },
+        {
+            "name": "destruction",
+            "id": "20000000000805"
+        },
+        {
+            "name": "fiole de sang de vampire",
+            "id": "217016000000103"
+        }
+    ]
+}

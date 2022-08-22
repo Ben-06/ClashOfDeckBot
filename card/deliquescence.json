@@ -1,0 +1,135 @@
+{
+    "extName": "deliquescence",
+    "creature": [
+        {
+            "name": "tr\u00e9sor glouton",
+            "id": "113005000000234"
+        },
+        {
+            "name": "chauve-garou ",
+            "id": "113018000000456"
+        },
+        {
+            "name": "chef de tribu",
+            "id": "115004000000324"
+        },
+        {
+            "name": "cauchemar suintant",
+            "id": "119100000000334"
+        },
+        {
+            "name": "d\u00e9moctopus",
+            "id": "119012170000013"
+        },
+        {
+            "name": "tr\u00e9ant furieux ",
+            "id": "115006000000322"
+        },
+        {
+            "name": "m\u00e8re des couv\u00e9es",
+            "id": "115018000000334"
+        },
+        {
+            "name": "golem d'onyx",
+            "id": "10000000000284"
+        },
+        {
+            "name": "forgeron",
+            "id": "117100000000133"
+        },
+        {
+            "name": "cisailleur",
+            "id": "112017000000223"
+        },
+        {
+            "name": "l\u00e9chouilleur",
+            "id": "101010000000342"
+        },
+        {
+            "name": "liche",
+            "id": "10000000000623"
+        },
+        {
+            "name": "chuchoteur abyssal",
+            "id": "119003020000056"
+        },
+        {
+            "name": "shaman corrompu",
+            "id": "113004160000447"
+        },
+        {
+            "name": "parasite d\u00e9moniaque",
+            "id": "111001190000035"
+        },
+        {
+            "name": "chouineur",
+            "id": "114000000000112"
+        },
+        {
+            "name": "djinn",
+            "id": "10000000000686"
+        },
+        {
+            "name": "apothicaire",
+            "id": "116000000000264"
+        },
+        {
+            "name": "nouvelle recrue",
+            "id": "10000000000131"
+        },
+        {
+            "name": "golem friable",
+            "id": "107000000000274"
+        },
+        {
+            "name": "patrouilleur",
+            "id": "106014000000513"
+        },
+        {
+            "name": "banshee",
+            "id": "111015000000415"
+        },
+        {
+            "name": "hideux clampant",
+            "id": "115008120000425"
+        },
+        {
+            "name": "d\u00e9mon-b\u00e9lier",
+            "id": "113001000000858"
+        },
+        {
+            "name": "gargouille",
+            "id": "113000000000334"
+        },
+        {
+            "name": "rampignon",
+            "id": "119000000000032"
+        },
+        {
+            "name": "venimeuse",
+            "id": "115019180000034"
+        },
+        {
+            "name": "carapique",
+            "id": "114000000000223"
+        }
+    ],
+    "incantation": [
+        {
+            "name": "blizzard",
+            "id": "212000000000204"
+        },
+        {
+            "name": "bombe de mana",
+            "id": "202010000000907"
+        },
+        {
+            "name": "souffle revigorant",
+            "id": "216000000000102"
+        },
+        {
+            "name": "cong\u00e9lation",
+            "id": "210000000000703"
+        }
+    ]
+}

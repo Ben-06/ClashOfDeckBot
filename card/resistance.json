@@ -1,0 +1,135 @@
+{
+    "extName": "resistance",
+    "creature": [
+        {
+            "name": "arachnide chitineuse",
+            "id": "114018000000213"
+        },
+        {
+            "name": "monture indompt\u00e9e",
+            "id": "109000000000333"
+        },
+        {
+            "name": "bourreau sans visage",
+            "id": "106002100000554"
+        },
+        {
+            "name": "protecteur sylvain",
+            "id": "106012170409356"
+        },
+        {
+            "name": "centaure",
+            "id": "106004090000555"
+        },
+        {
+            "name": "machouilleur",
+            "id": "119018000000043"
+        },
+        {
+            "name": "matriarachnides",
+            "id": "10000000000755"
+        },
+        {
+            "name": "bedonnant primitif",
+            "id": "10000000000464"
+        },
+        {
+            "name": "phoenix en d\u00e9clin",
+            "id": "101000000000253"
+        },
+        {
+            "name": "minotaure",
+            "id": "104009000000445"
+        },
+        {
+            "name": "gourou m\u00e9canique",
+            "id": "109100000000334"
+        },
+        {
+            "name": "fl\u00e9au des remparts",
+            "id": "101008090000937"
+        },
+        {
+            "name": "protecteur contractuel",
+            "id": "106010000000663"
+        },
+        {
+            "name": "titubeur \u00e9ternel",
+            "id": "106000000000130"
+        },
+        {
+            "name": "guerri\u00e8re farouche",
+            "id": "112017090000356"
+        },
+        {
+            "name": "f\u00e9tiche maya",
+            "id": "10000000000263"
+        },
+        {
+            "name": "druide pacifique",
+            "id": "108108000000112"
+        },
+        {
+            "name": "fouisseur craintif",
+            "id": "107018000000132"
+        },
+        {
+            "name": "arbal\u00e9trier rouill\u00e9",
+            "id": "112007000000344"
+        },
+        {
+            "name": "tr\u00e9ant aigri",
+            "id": "115000000000233"
+        },
+        {
+            "name": "clampant",
+            "id": "115017000000133"
+        },
+        {
+            "name": "petite frappe",
+            "id": "109007000000344"
+        },
+        {
+            "name": "oeuf de phoenix",
+            "id": "10000000000422"
+        },
+        {
+            "name": "monture nomade",
+            "id": "111000000000133"
+        },
+        {
+            "name": "grouillant",
+            "id": "108000000000211"
+        },
+        {
+            "name": "skiwk-skiwk",
+            "id": "115017000000324"
+        },
+        {
+            "name": "cat'pitaine hydrolphobe",
+            "id": "115003000000477"
+        },
+        {
+            "name": "gisement vivant",
+            "id": "105000000000333"
+        }
+    ],
+    "incantation": [
+        {
+            "name": "butin pi\u00e9g\u00e9",
+            "id": "217002100000506"
+        },
+        {
+            "name": "sacrifice d\u00e9moniaque",
+            "id": "210000000000904"
+        },
+        {
+            "name": "net et pr\u00e9cis",
+            "id": "217000000000102"
+        },
+        {
+            "name": "exc\u00e8s d'adr\u00e9naline",
+            "id": "212016000000305"
+        }
+    ]
+}

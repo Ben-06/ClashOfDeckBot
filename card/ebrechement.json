@@ -1,0 +1,135 @@
+{
+    "extName": "ebrechement",
+    "creature": [
+        {
+            "name": "garde d\u00e9moniaque",
+            "id": "101008000000513"
+        },
+        {
+            "name": "gangren\u00e9 de mana",
+            "id": "105006000000110"
+        },
+        {
+            "name": "forge-mana",
+            "id": "105014000000113"
+        },
+        {
+            "name": "golem de mana",
+            "id": "105000000000444"
+        },
+        {
+            "name": "tr\u00e9ant",
+            "id": "10000000000332"
+        },
+        {
+            "name": "shaman en transe",
+            "id": "115016060000212"
+        },
+        {
+            "name": "harponeur",
+            "id": "115012160000325"
+        },
+        {
+            "name": "lac\u00e9rateur orc",
+            "id": "106002090000667"
+        },
+        {
+            "name": "m\u00e9caff\u00fbteur",
+            "id": "102100000000134"
+        },
+        {
+            "name": "dryade",
+            "id": "116000000000243"
+        },
+        {
+            "name": "\u00e9l\u00e9mentaire de feu",
+            "id": "10000000000644"
+        },
+        {
+            "name": "grrr abyssal",
+            "id": "102000000000313"
+        },
+        {
+            "name": "archer gobelin",
+            "id": "115000000000221"
+        },
+        {
+            "name": "ougha",
+            "id": "118012000000122"
+        },
+        {
+            "name": "seigneur d\u00e9moniaque",
+            "id": "10000000000776"
+        },
+        {
+            "name": "n\u00e9crom\u00e9cano",
+            "id": "108000000000523"
+        },
+        {
+            "name": "armure hant\u00e9",
+            "id": "111002000000114"
+        },
+        {
+            "name": "plante gloutonne",
+            "id": "116009000000466"
+        },
+        {
+            "name": "pr\u00eatresse",
+            "id": "116100000000112"
+        },
+        {
+            "name": "coupe-jarret",
+            "id": "115017000000213"
+        },
+        {
+            "name": "loup de givre",
+            "id": "115003080000314"
+        },
+        {
+            "name": "g\u00e9ant",
+            "id": "10000000000485"
+        },
+        {
+            "name": "d\u00e9serteur",
+            "id": "102004000000446"
+        },
+        {
+            "name": "canid\u00e9 des sommets",
+            "id": "118000000000253"
+        },
+        {
+            "name": "lutin de la source",
+            "id": "111003000000113"
+        },
+        {
+            "name": "cracheur d'azote",
+            "id": "103002000000335"
+        },
+        {
+            "name": "miaou-garou",
+            "id": "116004000000334"
+        },
+        {
+            "name": "esprit malin",
+            "id": "111000000000334"
+        }
+    ],
+    "incantation": [
+        {
+            "name": "dislocation",
+            "id": "210000000000301"
+        },
+        {
+            "name": "biquette sacrifi\u00e9e",
+            "id": "202000000000506"
+        },
+        {
+            "name": "liqu\u00e9faction",
+            "id": "213002100000809"
+        },
+        {
+            "name": "d\u00e9chirure astrale",
+            "id": "217000000000605"
+        }
+    ]
+}

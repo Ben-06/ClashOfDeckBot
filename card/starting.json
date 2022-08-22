@@ -1,0 +1,135 @@
+{
+    "extName": "starting",
+    "creature": [
+        {
+            "name": "revenant",
+            "id": 108012000000233
+        },
+        {
+            "name": "lieutenant",
+            "id": 114000000000313
+        },
+        {
+            "name": "mutant",
+            "id": 115018012000245
+        },
+        {
+            "name": "baron",
+            "id": 100000000000353
+        },
+        {
+            "name": "gnome",
+            "id": 115004000000213
+        },
+        {
+            "name": "assassin",
+            "id": 115018000000112
+        },
+        {
+            "name": "partisan",
+            "id": 115000000000223
+        },
+        {
+            "name": "disciple",
+            "id": 115012000000224
+        },
+        {
+            "name": "parasite",
+            "id": 115017012004114
+        },
+        {
+            "name": "scribe",
+            "id": 115008000000324
+        },
+        {
+            "name": "vortex",
+            "id": 118100000000032
+        },
+        {
+            "name": "alpha",
+            "id": 112008014000425
+        },
+        {
+            "name": "microctopus",
+            "id": 100000000000512
+        },
+        {
+            "name": "zombie",
+            "id": 100000000000311
+        },
+        {
+            "name": "abomination",
+            "id": 117012000000646
+        },
+        {
+            "name": "martyr",
+            "id": 114000000000667
+        },
+        {
+            "name": "aberration",
+            "id": 118015041208247
+        },
+        {
+            "name": "brute",
+            "id": 100000000000554
+        },
+        {
+            "name": "grrr",
+            "id": 115000000000132
+        },
+        {
+            "name": "carnivore",
+            "id": 115018170000266
+        },
+        {
+            "name": "ogre",
+            "id": 104000000000444
+        },
+        {
+            "name": "shaman",
+            "id": 115100000000123
+        },
+        {
+            "name": "troll",
+            "id": 115004000000366
+        },
+        {
+            "name": "machine",
+            "id": 114108000000013
+        },
+        {
+            "name": "brigand",
+            "id": 117000000000264
+        },
+        {
+            "name": "carapace",
+            "id": 114000000000043
+        },
+        {
+            "name": "reptile",
+            "id": 115018000000133
+        }
+    ],
+    "incantation": [
+        {
+            "name": "cyclone",
+            "id": 212017000000306
+        },
+        {
+            "name": "boom!",
+            "id": 200000000000101
+        },
+        {
+            "name": "meteorite",
+            "id": 212000000000405
+        },
+        {
+            "name": "annihilation",
+            "id": 200000000000604
+        },
+        {
+            "name": "combustion",
+            "id": 217000000000203
+        }
+    ]
+}
