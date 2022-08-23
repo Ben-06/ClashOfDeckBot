@@ -18,6 +18,10 @@ const commands = [
         option.setName('carte')
         .setDescription('carte à afficher')
         .setRequired(true)
+    )
+    .addStringOption(option =>
+        option.setName('crop')
+        .setDescription('afficher uniquement l\'image de la carte')
     ),
     new SlashCommandBuilder().setName('cs').setDescription('Afficher une Capacité Spéciale')
     .addStringOption(option =>

@@ -18,6 +18,7 @@ function sansAccent(str) {
 
 
 const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require('discord.js');
+const sharp = require('sharp');
 const token = process.env['token']
 const keep_alive = require('./keep_alive.js')
 const deliquescence = require('./card/deliquescence.json');
@@ -95,8 +96,31 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply("Cette carte n'existe pas.");
       return;
     }
-    var file = new AttachmentBuilder(`./card_img/${ext}/${cardToSearch}.png`, { name: `${cardToSearch}.png` });
-    interaction.channel.send({ files: [file] });
+
+    //crop image ?
+    let crop  = options.data.find(obj => {
+      return obj.name === "crop"
+    });
+
+    let image = `./card_img/${ext}/${cardToSearch}.png`;
+    var file = null;
+
+    if(crop && crop.value === 'crop'){
+      // file name for cropped image
+      let outputImage = 'croppedImage.jpg';
+
+      sharp(image).extract({ width: 400, height: 400, left: 129, top: 131 }).toFile(outputImage)
+      .then(function(new_file_info) {
+          file = new AttachmentBuilder(outputImage, { name: `${cardToSearch}.png` });
+          interaction.channel.send({ files: [file] });
+      })
+      .catch(function(err) {
+          return;
+      });
+    } else{
+      file = new AttachmentBuilder(image, { name: `${cardToSearch}.png` });
+      interaction.channel.send({ files: [file] });
+    }
   }
   else if (commandName === 'cs') {
 
