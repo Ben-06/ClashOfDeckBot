@@ -36,23 +36,42 @@ client.on('ready', () => {
   console.log('Ready!');
 });
 
-client.on('messageCreate', message => {
-  if (message.content.startsWith("/addFaq")) {
-    if (!message.member.roles.cache.find(role => role.name === "Modérateur")) {
-      if (!message.member.roles.cache.find(role => role.name === "Grand créateur")) return;
+client.on('interactionCreate', async interaction => {
+	if (!interaction.isChatInputCommand()) return;
+
+  const { commandName, options } = interaction;
+
+  if (commandName === 'add-faq') {
+    if (!interaction.member.roles.cache.find(role => role.name === "Modérateur")) {
+      if (!interaction.member.roles.cache.find(role => role.name === "Grand créateur")) return;
     };
-    var msgSplit = message.content.substring(8).split(";");
-    const faqChan = client.channels.cache.get('1001962148194431057');
-    var question = msgSplit[0];
-    var answer = msgSplit[1];
+
+    let msg_q  = options.data.find(obj => {
+      return obj.name === "question"
+    });
+    let msg_a  = options.data.find(obj => {
+      return obj.name === "réponse"
+    });
+
+    if(!msg_q || !msg_a) return;
+
+    const faqChan = client.channels.cache.get(process.env.faq_chan);
+    var question = msg_q.value;
+    var answer = msg_a.value;
     const embed = new EmbedBuilder()
       .setTitle(question)
       .setDescription(answer)
       .setColor("0x3482c6")
     faqChan.send({ embeds: [embed] });
   }
-  else if (message.content.startsWith("/card")) {
-    var cardToSearch = message.content.substring(6).toLocaleLowerCase();
+  else if (commandName === 'card') {
+
+    let msg  = options.data.find(obj => {
+      return obj.name === "carte"
+    });
+    if(!msg) return;
+
+    var cardToSearch = msg.value.toLocaleLowerCase();
     ext = "";
     extensionList.every(element => {
       element["creature"].every(card => {
@@ -73,19 +92,25 @@ client.on('messageCreate', message => {
       return true;
     });
     if (ext == "") {
-      message.channel.send("Cette carte n'existe pas.");
+      await interaction.reply("Cette carte n'existe pas.");
       return;
     }
     var file = new AttachmentBuilder(`./card_img/${ext}/${cardToSearch}.png`, { name: `${cardToSearch}.png` });
-    message.channel.send({ files: [file] });
+    interaction.channel.send({ files: [file] });
   }
-  else if (message.content.startsWith("/cs")) {
+  else if (commandName === 'cs') {
+
+    let msg  = options.data.find(obj => {
+      return obj.name === "cs"
+    });
+    if(!msg) return;
+
     var abilities = abilitiesFunc();
-    var abilityToSearch = message.content.substring(4).toLocaleLowerCase();
+    var abilityToSearch = msg.value.toLocaleLowerCase();
     abilityToSearch = sansAccent(abilityToSearch)
     var ability = abilities.find(ability => sansAccent(ability.name.toLocaleLowerCase()) == abilityToSearch);
     if (ability == undefined) {
-      message.channel.send("Cette capacité n'existe pas.");
+      await interaction.reply("Cette capacité n'existe pas.");
       return;
     }
     ability.name = sansAccent(ability.name);
@@ -96,7 +121,7 @@ client.on('messageCreate', message => {
       .setDescription(ability.description)
       .setColor("0x3482c6")
       .setThumbnail("attachment://" + ability.name.toLocaleLowerCase() + ".png")
-    message.channel.send({ embeds: [CSEmbed], files: [cs_png] });
+    interaction.channel.send({ embeds: [CSEmbed], files: [cs_png] });
   }
 });
 
