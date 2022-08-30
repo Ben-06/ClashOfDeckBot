@@ -96,7 +96,7 @@ client.on('interactionCreate', async interaction => {
       return;
     }
     var file = new AttachmentBuilder(`./card_img/${ext}/${cardToSearch}.png`, { name: `${cardToSearch}.png` });
-    interaction.channel.send({ files: [file] });
+    await interaction.reply({ files: [file] });
   }
   else if (commandName === 'cs') {
 
@@ -115,13 +115,14 @@ client.on('interactionCreate', async interaction => {
     }
     ability.name = sansAccent(ability.name);
 
-    const cs_png = new AttachmentBuilder("./cs_img/" + ability.name.toLocaleLowerCase() + ".png");
+    var re = / /gi;
+    const cs_png = new AttachmentBuilder("./cs_img/" + ability.name.toLocaleLowerCase().replace(re,"_") + ".png");
     const CSEmbed = new EmbedBuilder()
       .setTitle(ability.name)
       .setDescription(ability.description)
       .setColor("0x3482c6")
-      .setThumbnail("attachment://" + ability.name.toLocaleLowerCase() + ".png")
-    interaction.channel.send({ embeds: [CSEmbed], files: [cs_png] });
+      .setThumbnail("attachment://" + ability.name.toLocaleLowerCase().replace(re,"_") + ".png")
+    await interaction.reply({ embeds: [CSEmbed], files: [cs_png] });
   }
 });
 
